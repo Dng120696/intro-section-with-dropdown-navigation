@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+ 
+</head>
+<body>
+  <nav class="nav flex">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="logo" class="img-logo">
+    </div>
+    <!-- WHITE BOX -->
+    <div class="box flex">
+        <!-- FEATURES DROP DOWN -->
+     
+        <div class="menu-links flex">
+          <div class="dropdown flex">
+            <ul class="flex">
+              <li><a href="#">
+                Features
+              </a></li>
+              <li><a href="#">
+                <img src="./images/icon-arrow-down.svg" alt="arrow-dowm" class = 'arrow-down'>
+              </a></li>
+            </ul>
+            <!-- HIDDEN LINKS -->
+            <ul class="links links-1 flex">
+                <li class="todo-list"><a href="#">
+                  Todo List
+                </a></li>
+                <li class="calendar"><a href="#">
+                  Calendar
+                </a></li>
+                <li class="reminders"><a href="#">
+                  Reminders
+                </a></li>
+                <li class="planning"><a href="#">
+                  Planning
+                </a></li>
+            </ul>
+          </div>
+          <!-- COMPANY DROP DOWN -->
+          <div class="dropdown flex">
+            <ul class="flex">
+              <li><a href="#">
+                Company
+              </a></li>
+              <li><a href="#">
+                <img src="./images/icon-arrow-down.svg" alt="arrow-dowm" class = 'arrow-down'>
+                
+              </a></li>
+            </ul>
+            <!-- HIDDEN LINKS -->
+            <ul class="links links-2 flex">
+                <li ><a href="#">
+                  History
+                </a></li>
+                <li><a href="#">
+                  Our Team
+                </a></li>
+                <li><a href="#">
+                  Blog
+                </a></li>    
+            </ul>
+          </div>
+          <li><a href="#">
+            Careers
+          </a></li>
+          <li><a href="#">
+            About
+          </a></li>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-login">
+           Login    
+          </button>
+          <button class="btn btn-register">
+           Register   
+          </button>
+         </div> 
+     </div> 
+     <div class="menu">
+      <img src="./images/icon-menu.svg" alt="open" class="open-menu">
+      <img src="./images/icon-close-menu.svg" alt="open" class="close-menu hidden">
+     </div>
+  </nav>
+  <main class="container flex">
+    <div class="main-img">
+      <img src="./images/image-hero-mobile.png" alt="mobile" class="img-mobile">
+      <img src="./images/image-hero-desktop.png" alt="mobile" class="img-desktop">
+    </div>
+    <div class="main-content">
+      <h1 class="main-title">
+        Make remote work
+      </h1>
+      <p class="main-info">    
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <buttun class="btn btn-learnmore">
+        Learn more
+      </buttun>
+      <div class="icon flex">
+        <img src="./images/client-databiz.svg" alt="data">
+        <img src="./images/client-audiophile.svg" alt="phile">
+        <img src="./images/client-meet.svg" alt="meet">
+        <img src="./images/client-maker.svg" alt="maker">
+      </div>
+    </div> 
+  </main>
+  <div class="overlay"></div>
+  <script src="./script.js"></script>
+</body>
+</html>
