@@ -18,7 +18,7 @@ const toggle = () =>{
 
 
 for(const item of dropdown){
-  item.addEventListener('click',(e) =>{
+  item.addEventListener('click',() =>{
     item.classList.toggle('show-links');
   
   });
