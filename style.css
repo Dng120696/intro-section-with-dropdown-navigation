@@ -32,6 +32,10 @@ img{
 .img-desktop{
   display: none;
 }
+.main-img img{
+  max-height: 65vh;
+  margin: 0 auto;
+}
 a,.btn,p{
   color:  var(--Medium-Gray);
   font-size: clamp(1.6rem,1.5vw,1.8rem);
